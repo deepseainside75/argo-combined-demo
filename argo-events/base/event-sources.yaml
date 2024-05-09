@@ -11,13 +11,13 @@ spec:
       targetPort: 12000
   github:
     argo-combined-app:
-      owner: vfarcic
+      owner: deepseainside75
       repository: argo-combined-app
       webhook:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://acme.com
+        url: https://vj1ou3.tunnel.pyjam.as
       events:
         - "*"
       apiToken:
