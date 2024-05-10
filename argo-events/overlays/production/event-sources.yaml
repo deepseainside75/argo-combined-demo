@@ -17,7 +17,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://webhook.127.0.0.1.nip.io
+        url: https://vj1ou3.tunnel.pyjam.as
       events:
         - "*"
       apiToken:
