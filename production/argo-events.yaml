@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     path: charts/argo-events
-    repoURL: https://github.com/deepseainside75/argo-helm.git
+    repoURL: https://github.com/argoproj/argo-helm.git
     targetRevision: HEAD
   destination:
     namespace: argo-events
